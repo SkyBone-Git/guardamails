@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacidad guardaMails</title>
+<style>
+  :root { --bg:#fafafa; --fg:#1d1d1f; --muted:#5f6368; --accent:#1a73e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141414; --fg:#ececec; --muted:#a0a0a0; --accent:#8ab4f8; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  h1 { font-size:1.8rem; } h2 { font-size:1.15rem; margin-top:1.8rem; }
+  .muted { color:var(--muted); } a { color:var(--accent); } hr { border:0; border-top:1px solid #8884; margin:48px 0; }
+</style>
+</head>
+<body>
+<main>
+  <p><a href="index.html">← guardaMails</a></p>
+  <h1>Política de privacidad de guardaMails</h1>
+  <p class="muted">Última actualización: 17 de noviembre de 2026</p>
+
+  <h2>1. Qué datos usa la aplicación</h2>
+  <p>guardaMails accede a los mensajes de correo electrónico, sus cabeceras (remitente, destinatarios, asunto, fecha)
+  y sus archivos adjuntos de la cuenta con la que inicias sesión, con el único fin de crear copias de seguridad en PDF.</p>
+
+  <h2>2. Dónde se procesan y guardan</h2>
+  <p>Todo el procesamiento se realiza localmente en tu ordenador. Los PDF se guardan exclusivamente en la carpeta que
+  eliges. guardaMails no tiene servidores y no envía, vende, comparte ni transfiere tus datos a terceros. La aplicación
+  solo se comunica con tu proveedor de correo (Google, Microsoft u otro) para iniciar sesión y descargar tus mensajes.</p>
+
+  <h2>3. Credenciales</h2>
+  <p>El inicio de sesión con Google o Microsoft se hace en sus páginas oficiales; guardaMails nunca ve tu contraseña.
+  El token de acceso se guarda solo en tu ordenador, junto a la aplicación, para no pedirte iniciar sesión cada vez.
+  Puedes borrarlo eliminando el archivo <code>google_token_cache.json</code> o <code>ms_token_cache.bin</code>, y revocar
+  el acceso en cualquier momento desde <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+  o <a href="https://account.live.com/consent/Manage">account.live.com/consent/Manage</a>.</p>
+
+  <h2>4. Solo lectura</h2>
+  <p>Aunque el permiso de Gmail (<code>https://mail.google.com/</code>) técnicamente permite más, guardaMails solo lee
+  mensajes: no envía, borra, mueve, modifica ni marca como leído ningún correo.</p>
+
+  <h2>5. Uso limitado de datos de Google</h2>
+  <p>El uso y la transferencia a cualquier otra aplicación de la información recibida de las API de Google por parte de
+  guardaMails cumplirá la <a href="https://developers.google.com/terms/api-services-user-data-policy">Política de datos
+  de usuario de los servicios de API de Google</a>, incluidos los requisitos de uso limitado. Los datos no se usan para
+  publicidad ni para entrenar modelos de inteligencia artificial, y ninguna persona los lee.</p>
+
+  <h2>6. Contacto</h2>
+  <p>Para cualquier consulta, <a href="https://github.com/SkyBone-Git/guardamails/issues">abre una incidencia en GitHub</a>.</p>
+
+  <hr>
+
+  <h1 id="en">guardaMails Privacy Policy</h1>
+  <p class="muted">Last updated: November 17, 2026</p>
+  <p><strong>Data accessed.</strong> guardaMails accesses the email messages, headers and attachments of the account you
+  sign in with, solely to create PDF backups.</p>
+  <p><strong>Processing and storage.</strong> All processing happens locally on your computer, and PDFs are saved only to
+  the folder you choose. guardaMails has no servers and does not send, sell, share or transfer your data to any third party.
+  It only communicates with your email provider to sign in and download your messages.</p>
+  <p><strong>Credentials.</strong> Sign-in happens on Google's or Microsoft's official pages; the app never sees your
+  password. Access tokens are stored only on your computer. You can revoke access at any time at
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+  <p><strong>Read-only.</strong> guardaMails only reads messages; it never sends, deletes, moves, modifies or marks any email as read.</p>
+  <p><strong>Limited Use.</strong> guardaMails' use and transfer to any other app of information received from Google APIs
+  will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User
+  Data Policy</a>, including the Limited Use requirements. Data is not used for advertising or to train AI models, and no
+  human reads it.</p>
+  <p><strong>Contact.</strong> <a href="https://github.com/SkyBone-Git/guardamails/issues">open an issue on GitHub</a>.</p>
+</main>
+</body>
+</html>
